@@ -117,7 +117,7 @@ const ReviewForm: React.FC = () => {
 							onClick={() => handleRatingClick(value)}
 							className={`${
 								formData.rating === value ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'
-							} font-bold py-8 px-10 rounded mr-2 focus:outline-none focus:shadow-outline`}
+							} font-bold py-6 px-8 md:py-8 md:px-10 rounded mr-2 focus:outline-none focus:shadow-outline`}
 						>
 							{value} {formData.rating === value && '★'}
 						</button>
